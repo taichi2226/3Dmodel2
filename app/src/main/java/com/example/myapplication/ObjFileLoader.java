@@ -22,7 +22,7 @@ public class ObjFileLoader {
         indexCount = 0;
         isLoad = false;
     }
-    //読み込みのメソッド。引数のscaleは大きさの指定です。
+    //読み込みのメソッド。引数のscaleは大きさの指定。
     public void FileLoad(InputStream in,float scale){
         InputStreamReader inst = new InputStreamReader(in);
         BufferedReader buf = new BufferedReader(inst);

@@ -8,8 +8,8 @@ import android.opengl.GLSurfaceView;
 import android.opengl.GLU;
 
 public class GLRenderer implements GLSurfaceView.Renderer{
-    private TexReg mTex;//自作のTexture設定クラス→⑤のクラス
-    private ObjDrawer mObj,mCube;//Objファイルの表示クラス→④のクラス
+    private TexReg mTex;//自作のTexture設定クラス
+    private ObjDrawer mObj,mCube;//Objファイルの表示クラス
     private float angle = 0f;
     private float lightpos[] = {0f,0f,1f,1f};//ライティングの位置
 

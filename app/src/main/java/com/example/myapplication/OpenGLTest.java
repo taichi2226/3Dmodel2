@@ -9,7 +9,7 @@ import android.widget.FrameLayout;
 public class OpenGLTest extends Activity {
     private GLSurfaceView mGLSurfaceView;
     private FrameLayout mFrame;
-    private GLRenderer mRend;//自作Rendererクラス→②のクラスです。
+    private GLRenderer mRend;//自作Rendererクラス。
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
